@@ -12,7 +12,7 @@ export class HijoComponent {
 
   msj?: string;
 
-  constructor(private _serverFamily: ServerFamilyService) {}
+  constructor() {}
 
   sendMsjToFatherFromSon() {
     this.sendMsjToFather.emit(this.msj);
