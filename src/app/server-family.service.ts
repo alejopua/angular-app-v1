@@ -23,11 +23,11 @@ export class ServerFamilyService {
     this.nameFather = name;
   }
 
-  greeting(family: string) {
-    return console.log(`Hello, ${family}`);
+  greeting(family: string): void {
+    console.log(`Hello, ${family}`);
   }
 
-  ask(): string {
-    return 'How are you?';
+  ask(family: string): void {
+    console.log(`How are you, ${family}`);
   }
 }
