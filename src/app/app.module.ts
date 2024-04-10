@@ -7,9 +7,10 @@ import { PadreComponent } from './padre/padre.component';
 import { HijoComponent } from './hijo/hijo.component';
 import { FormsModule } from '@angular/forms';
 import { BrotherComponent } from './brother/brother.component';
+import { StyleBrotherDirective } from './style-brother.directive';
 
 @NgModule({
-  declarations: [AppComponent, PadreComponent, HijoComponent, BrotherComponent],
+  declarations: [AppComponent, PadreComponent, HijoComponent, BrotherComponent, StyleBrotherDirective],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   exports: [],
