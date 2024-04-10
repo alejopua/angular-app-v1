@@ -23,7 +23,7 @@ export class PadreComponent implements OnInit {
   }
 
   ask() {
-    console.log(this._serverFamily.ask());
+    this._serverFamily.ask(this._serverFamily.getBigBrother() || '');
   }
 
   receiveMsjFromSon($event: string) {
