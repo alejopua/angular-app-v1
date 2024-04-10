@@ -8,6 +8,7 @@ import { ServerFamilyService } from '../server-family.service';
 })
 export class BrotherComponent implements OnInit {
   name?: string;
+  fecha?: Date = new Date();
 
   constructor(private _serverFamily: ServerFamilyService) {}
 

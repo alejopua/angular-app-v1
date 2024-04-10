@@ -8,9 +8,10 @@ import { HijoComponent } from './hijo/hijo.component';
 import { FormsModule } from '@angular/forms';
 import { BrotherComponent } from './brother/brother.component';
 import { StyleBrotherDirective } from './style-brother.directive';
+import { MyPipeUpperPipe } from './my-pipe-upper.pipe';
 
 @NgModule({
-  declarations: [AppComponent, PadreComponent, HijoComponent, BrotherComponent, StyleBrotherDirective],
+  declarations: [AppComponent, PadreComponent, HijoComponent, BrotherComponent, StyleBrotherDirective, MyPipeUpperPipe],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   exports: [],
