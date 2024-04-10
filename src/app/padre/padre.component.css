@@ -1,0 +1,26 @@
+.container-component {
+  border-radius: 8px;
+  background: whitesmoke;
+  height: 150px;
+  margin-top: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.style-seccion-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+p {
+  margin: 0;
+}

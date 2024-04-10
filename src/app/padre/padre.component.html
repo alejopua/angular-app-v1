@@ -1,0 +1,13 @@
+<section class="style-seccion-1">
+  <div class="container-component">
+    <app-hijo
+      [receiveSon]="msjFather"
+      (sendMsjToFather)="receiveMsjFromSon($event)"
+    />
+  </div>
+
+  <div class="container-component">
+    <h1>father</h1>
+    <p>Send from: {{ receiveMsj }}</p>
+  </div>
+</section>
